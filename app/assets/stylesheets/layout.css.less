@@ -1,0 +1,520 @@
+@import "variables.css.less";
+
+/*General Content here, available for every page */
+
+.bg-blue {
+  background-image: none !important;
+  background-color: @color-blue !important;
+  border-color: @color-blue !important;
+  color: #fff !important;
+}
+.bg-red {
+  background-image: none !important;
+  background-color: @color-red !important;
+  border-color: @color-red !important;
+  color: #fff !important;
+}
+.bg-yellow {
+  background-image: none !important;
+  background-color: @color-yellow !important;
+  border-color: @color-yellow !important;
+  color: #fff !important;
+}
+.bg-green {
+  background-image: none !important;
+  background-color: @color-green !important;
+  border-color: @color-green !important;
+  color: #fff !important;
+}
+.bg-purple {
+  background-image: none !important;
+  background-color: @color-purple !important;
+  border-color: @color-purple !important;
+  color: #fff !important;
+}
+.bg-dark {
+  background-image: none !important;
+  background-color: @color-dark !important;
+  border-color: @color-dark !important;
+  color: #fff !important;
+}
+.bg-grey {
+  background-image: none !important;
+  background-color: @color-grey !important;
+  border-color: @color-grey !important;
+}
+
+.bg-lgreen {
+  background-image: none !important;
+  background-color: rgb(27,188,155) !important;
+  border-color: rgb(27,188,155) !important;
+  color: #fff !important;
+}
+
+.color-blue {
+  background-image: none !important;
+  color: @color-blue !important;
+  border-color: @color-blue !important;
+}
+.color-red {
+  background-image: none !important;
+  color: @color-red !important;
+  border-color: @color-red !important;
+}
+.color-yellow {
+  background-image: none !important;
+  color: @color-yellow !important;
+  border-color: @color-yellow !important;
+}
+.color-green {
+  background-image: none !important;
+  color: @color-green !important;
+  border-color: @color-green !important;
+}
+.color-purple {
+  background-image: none !important;
+  color: @color-purple !important;
+  border-color: @color-purple !important;
+}
+.color-dark {
+  background-image: none !important;
+  color: @color-dark !important;
+  border-color: @color-dark !important;
+}
+.color-grey {
+  background-image: none !important;
+  color: @color-grey !important;
+  border-color: @color-grey !important;
+}
+.color-gray{
+  background-image: none !important;
+  color: @color-gray !important;
+  border-color: @color-gray !important;
+}
+.color-dgray{
+  color:@color-dgray !important;
+}
+.color-text{
+  color:@color-text !important;
+}
+
+
+
+/***
+  General typography
+  ***/
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,.h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold !important;
+  margin-bottom:0;
+}
+
+h1.block,
+h2.block,
+h3.block,
+h4.block,
+h5.block,
+h6.block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4,.h4{ font-weight: bolder; text-transform: uppercase; padding: 10px;}
+h6,.h6{text-transform: uppercase; padding: 10px 20px 20px 30px;}
+
+a {
+  text-shadow: none !important;
+  color: #5B5F6F !important;
+  cursor:pointer;
+  text-decoration:none !important;
+  border: none !important;
+}
+
+/***
+Fix link outlines after click
+***/
+a,a:focus, a:hover, a:active {
+  outline: 0;
+}
+
+/***
+General HR
+***/
+
+hr {
+  margin: 5px 0 15px 0;
+  border: 0;
+  border-top: 1px solid #f04a5e;
+}
+
+/***
+Tools
+***/
+
+.display-none,
+.display-hide {
+  display: none;
+}
+
+.no-space {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.no-margin {
+  margin:0;
+}
+
+.no-border {
+  border:0 !important;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+.margin-top-10 {
+  margin-top: 10px !important;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px !important;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px !important;
+}
+.margin-top-25 {
+  margin-top: 25px !important;
+}
+.margin-right-10 {
+  margin-right: 10px !important;
+}
+
+.margin-right-0 {
+  margin-right: 0px !important;
+}
+
+.margin-left-0 {
+  margin-left: 0px !important;
+}
+
+.bold {
+  font-weight:600 !important;
+}
+
+.fix-margin {
+  margin-left: 0px !important
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.bottom-0{
+  bottom:0px !important;
+}
+
+.top-0{
+  top:0px !important;
+}
+
+.left-0{
+  left:0px !important;
+}
+
+.right-0{
+  right:0px !important;
+}
+
+.inline {
+  display: inline;
+}
+
+.text-align-reverse {
+  text-align: right;
+}
+
+/***
+ie8 & ie9 modes
+***/
+
+.visible-ie8 {
+  display: none;
+}
+
+.ie8 .visible-ie8 {
+  display: inherit !important;
+}
+
+.visible-ie9 {
+  display: none;
+}
+
+.ie9 .visible-ie9 {
+  display: inherit !important;
+}
+
+.hidden-ie8 {
+  display: inherit;
+}
+
+.ie8 .hidden-ie8 {
+  display: none !important;
+}
+
+.hidden-ie9 {
+  display: inherit;
+}
+
+.ie9 .hidden-ie9 {
+  display: none !important;
+}
+/* general body settings */
+body {
+  color: #696969;
+  font-family: 'Lato', sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size:12px;
+  direction: ltr;
+  font-weight: 700;
+}
+
+/***
+    Custom boostrap classes
+***/
+.btn{
+  border-radius:0px !important;
+}
+
+@import "protocol.edit.less";
+@import "subjects.add.less";
+
+.view-container{
+  //min-height: 100%;
+  padding-bottom: 50px;
+  margin-top:50px;
+}
+
+
+/***
+    Footer
+***/
+
+.footer {
+  padding: 8px 20px 5px 20px;
+  font-size: 12px;
+  bottom: 0px;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+}
+
+.footer:after,
+.footer:before {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+.footer:after {
+  clear: both;
+}
+
+.footer .footer-inner {
+  float: left;
+  display: inline-block;
+}
+
+.footer .footer-tools {
+  float: right;
+  display: inline-block;
+}
+
+.footer .footer-tools .go-top {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: -2px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+  font-size: 7px;
+  padding: 0px 6px 0px 6px;
+}
+
+.footer .footer-tools .go-top i {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/***
+    Responsive
+***/
+
+/***
+  Extra Small Devices Only
+***/
+
+@media (max-width: 767px) {
+  .col-sm-2_4 {
+    width: 100% !important;
+    height: 100%;
+    margin-bottom: 0;
+  }
+  .nvisitPos {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px !important;
+  }
+  .proceduresCont {
+    width: 100%;
+    top: 40px;
+    margin-left: 0;
+    padding-left: 0;
+    z-index: 999;
+    position: relative !important;
+    margin-bottom: 85px !important;
+  }
+  .ui-draggable-dragging {
+    width:80%;
+  }
+  /***
+  New 15-2-2015
+  ***/
+  .sidebar {
+    height: auto !important;
+    margin-left: -50px;
+    padding-left: 50px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+  }
+  .right-bar {
+    height: auto !important;
+    padding: 0px 0px 0px 30px;
+    margin-left: -35px;
+    margin-top: 0px;
+  }
+  .reactions li {
+    width: 95%;
+  }
+  .med-tit li > i {
+    margin: 2% 2.5%;
+  }
+  #_allergies > div.col-sm-6 > div.row.reactions > button {
+    right: 3% !important;
+    bottom: -34px;
+  }
+}
+
+/*** NEW 21-3 ***/
+.box{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.execution_ul{
+  list-style:none;
+}
+
+/***30-3-2015***/
+.visit_N .btn.active {
+  background: #f4f4f4;
+  height: 39px;
+  box-shadow: none;
+}
+.visit_N .btn {
+  background: inherit;
+  height: 39px;
+  box-shadow: none;
+}
+.slct_all {
+  position: absolute;
+  bottom: -33px;
+  left: 15px;
+  margin-left: 20px;
+  color: #c3c5ca;
+}
+.sbjc_info {
+  display: inline-block;
+  width: 80%;
+  vertical-align: baseline;
+}
+.btns-prot {
+  display: inline-block;
+  float: right;
+  margin-right: 7%;
+}
+.leyend_name {
+  display: inline-block;
+}
+li.prot_ex {
+  padding-left: 10px;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+.slc_allP {
+  position: absolute !important;
+  bottom: -29px;
+  left: 0;
+  background-color: #fff;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #c3c5ca;
+  height: 30px;
+  width: 30px;
+  padding: 0;
+}
+.paginators {
+  padding-left: 0;
+  margin-top: 30px;
+  padding-right: 0;
+}
+.paginators a {
+  padding: 15%;
+  color: #737373!important;
+}
+.newer {
+  border: 1px solid #c4c5c6 !important;
+}
+.paginator {
+  border: 1px solid #c4c5c6 !important;
+  border-radius: 15px;
+  padding: 5px 20px;
+}
+.p_info h2{
+}
+.done{
+  background-color: transparent !important;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Protocols the easy way">
+  <meta name="keywords" content="">
+  <meta name="author" content="smartbears">
+  <title>Subjects</title>
+  <!-- BEGIN THEME STYLES -->
+  <!--<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link href="../assets/css/shell.min.css" rel="stylesheet">-->
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= javascript_include_tag 'application'%>
+  <%= csrf_meta_tags %>
+  <!-- END THEME STYLES -->
+  <link rel="shortcut icon" href="favicon.ico"/>
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed bg-grey">
+<!-- BEGIN HEADER -->
+<div class="header bg-blue">
+  <!-- BEGIN TOP NAVIGATION BAR -->
+  <div class="header-inner navbar bg-blue">
+    <div class="navbar-toggled navbar-closed" style="display: none; ">
+      <div class="navbar-toggled-controls">
+        <div class="navbar-toggled-title"><i class="glyphicon-th-list glyphicon"></i></div>
+        <div class="navbar-button"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></div>
+      </div>
+      <ul style="display: none;">
+        <li>
+          <a href="./index.html">Subjects</a>
+        </li>
+        <li>
+          <a href="../protocols/index.html">Protocol Configuration</a>
+        </li>
+        <li><a>Financial Protocol</a></li>
+      </ul></div>
+    <!-- BEGIN TOP NAVIGATION MENU -->
+    <ul class="nav navbar-nav pull-right">
+      <li class="active"><a href="./index.html">Subjects</a><div class="marker bg-grey"></div></li>
+      <li><a href="../protocols/index.html">Protocol Configuration</a> <div class="marker bg-grey"></div></li>
+      <li><a>Financial Protocol</a><div class="marker bg-grey"></div></li>
+    </ul>
+    <!-- END TOP NAVIGATION MENU -->
+  </div>
+  <!-- END TOP NAVIGATION BAR -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+
+<div class="page-container bg-grey">
+  <!-- BEGIN CONTENT -->
+  <div id="view-container" class="container-fluid">
+    <%= yield %>
+  </div>
+  <!-- END CONTENT -->
+</div>
+
+<!-- BEGIN FOOTER -->
+<div id="footer">
+  <div class="navbar navbar-fixed-bottom bg-blue">
+    <!--div class="footer-container"-->
+    <div class="footer-inner">
+      2015 © Clinical Research
+    </div>
+    <div class="footer-tools">
+        <span class="go-top">
+          <i class="glyphicon glyphicon-chevron-up"></i>
+        </span>
+    </div>
+    <!--/div-->
+  </div>
+</div>
+<!-- END FOOTER -->
+
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time)
+<script src="../assets/js/external.min.js"></script>-->
+<!--<script src="assets/js/external/handlebars-v2.0.0.js"></script>
+<script src="assets/js/external/ember.prod.js"></script>
+<script src="assets/js/external/ember-data.prod-v1.0.0.12.js"></script
+<script src="../assets/js/subjectTemplates.min.js"></script>
+<script src="../assets/js/subjectApp.min.js"></script>-->
+<!-- END PAGE LEVEL SCRIPTS -->
+
+</body>
+<!-- END BODY -->
+
+</html>
+
