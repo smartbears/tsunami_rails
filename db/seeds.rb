@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Subject.create(:name => 'Maykel Martinez')
+Subject.create(:name => 'Jorge T')
+Subject.create(:name => 'Tsunami Soft')
